@@ -40,13 +40,9 @@ li {
     font-size: 6.5em;
 }
 
-.content {
-    display: flex;
-}
-
 .statement {
-    font-size: 6em;
-    /* background: #C46559; */
+    font-size: 2.1em;
+    background: #C46559;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -55,21 +51,8 @@ li {
 
 
 .values {
-    font-size: 1.2em;
-    /* background: #C46559; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: right;
-}
-
-.values .p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 0.9em;
+    background-color: ;
 }
 
 .project-container {
