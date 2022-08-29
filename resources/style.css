@@ -1,16 +1,35 @@
-.navbar {
-    float: right;
+h1 {
+    font-size: 7em;
+    /* background: #C46559; */
+    font-family: 'Playfair Display', serif;
+    text-align: center;
 
+}
+
+h3 {
+    font-size: 2em;
+}
+
+ul {
+    padding: 0%;
 }
 
 body {
-    background-color: #FFF1D6;
+    background-color: oldlace;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden
 }
 
 .navbar li {
@@ -18,22 +37,67 @@ body {
     padding-inline: 10px;
 }
 
+.bottomButtons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    padding-inline: 10px;
+    text-align: center;
+}
+
+.bottomButtons img {
+    height: 30px;
+    padding-right: 10px;
+    ;
+}
+
+.bottomButtons ul li {
+    display: inline;
+}
+
 .mainimg {
-    position: relative;
     text-align: center;
     overflow: hidden;
 }
 
-.mainimg img {}
+.mainimg img {
+    width: 85%;
+}
 
-.mainimg .navbar {
-    position: absolute;
+.lowerimg img {
+    width: 100%;
+    margin-bottom: 30px;
+    ;
+}
+
+.navbar {
     top: 40px;
     left: 50px;
-    font-size: 1.5em;
-    font-family: 'Aboreto', cursive;
+    font-size: 1.15em;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.navright {
+    float: left;
+}
 
+.connectButtons {
+    float: right;
+
+}
+
+.connectButtons img {
+    height: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #B7C892;
+    padding-bottom: 50px
 }
 
 .mainimg .hometext {
@@ -45,6 +109,7 @@ body {
 
 .content {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .statement {
@@ -54,13 +119,13 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Playfair Display', serif;
     padding-left: 30px;
 }
 
 
 .values {
-    font-size: 1.2em;
+    font-size: 1.1em;
     /* background: #C46559; */
     width: 100%;
     display: flex;
@@ -69,7 +134,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     text-align: right;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .statement-alt {
@@ -79,12 +144,12 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Playfair Display', serif;
     padding-left: 30px;
 }
 
 .values-alt {
-    font-size: 1.2em;
+    font-size: 1.1em;
     /* background: #C46559; */
     width: 100%;
     display: flex;
@@ -92,8 +157,7 @@ body {
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Comfortaa', cursive;
-
+    font-family: 'Playfair Display', serif;
 }
 
 .abousus {
@@ -103,7 +167,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     text-align: right;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .values img {
@@ -119,8 +183,8 @@ body {
 }
 
 .project img {
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 350px;
 }
 
 .project {
@@ -130,6 +194,7 @@ body {
     width: 400px;
     height: 650px;
     padding: 20px;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -153,10 +218,26 @@ body {
     padding: 20px;
 }
 
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact section {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+}
+
 .supporters p {
     text-align: center;
     font-size: 2.5em;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Playfair Display', serif;
 
 }
 
