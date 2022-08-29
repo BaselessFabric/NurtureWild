@@ -1,18 +1,19 @@
 .navbar {
     float: right;
+
 }
 
 body {
     background-color: #FFF1D6;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+.navbar li {
     display: inline;
     padding-inline: 10px;
 }
@@ -71,6 +72,40 @@ li {
     font-family: 'Comfortaa', cursive;
 }
 
+.statement-alt {
+    font-size: 6em;
+    /* background: #C46559; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Aboreto', cursive;
+    padding-left: 30px;
+}
+
+.values-alt {
+    font-size: 1.2em;
+    /* background: #C46559; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.abousus {
+    font-size: 1.2em;
+    /* background: #C46559; */
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: right;
+    font-family: 'Comfortaa', cursive;
+}
+
 .values img {
     width: 100%;
 }
@@ -116,4 +151,21 @@ li {
     width: 400px;
     height: 650px;
     padding: 20px;
+}
+
+.supporters p {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Aboreto', cursive;
+
+}
+
+.supporters .supporters-container {
+    display: flex;
+    justify-content: center;
+}
+
+.supporters .supporters-container img {
+    max-width: 200px;
+
 }
