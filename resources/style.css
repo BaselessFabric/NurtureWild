@@ -82,6 +82,9 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navright {
@@ -90,6 +93,7 @@ a:hover {
 
 .connectButtons {
     float: right;
+    margin-left: 250px;
 
 }
 
