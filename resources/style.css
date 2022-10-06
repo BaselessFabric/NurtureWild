@@ -1,9 +1,9 @@
 h1 {
-    font-size: 7em;
+    font-size: 4em;
     /* background: #C46559; */
     font-family: 'Playfair Display', serif;
     text-align: center;
-
+    font-weight: normal;
 }
 
 h3 {
@@ -78,6 +78,7 @@ a:hover {
     top: 40px;
     left: 50px;
     font-size: 1.15em;
+    font-weight: 900;
     font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -115,7 +116,7 @@ footer {
 }
 
 .statement {
-    font-size: 6em;
+    font-size: 4em;
     /* background: #C46559; */
     width: 100%;
     display: flex;
@@ -140,7 +141,7 @@ footer {
 }
 
 .statement-alt {
-    font-size: 6em;
+    font-size: 4em;
     /* background: #C46559; */
     width: 100%;
     display: flex;
